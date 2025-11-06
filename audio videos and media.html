@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio, Video, and Media in HTML</title>
+</head>
+
+<body>
+    <h2>Media Elements in HTML</h2>
+
+    <!-- Audio Example -->
+    <h3>1. Audio Element</h3>
+    <p>Below is an example of an audio file that can be played directly in the browser:</p>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        <source src="sample-audio.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <br><br>
+
+    <!-- Video Example -->
+    <h3>2. Video Element</h3>
+    <p>Here is an example of a video file with playback controls:</p>
+    <video width="400" height="250" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        <source src="sample-video.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <br><br>
+
+    <!-- Embed Example -->
+    <h3>3. Embed Element</h3>
+    <p>You can also embed external media like YouTube videos or PDFs:</p>
+    <embed src="https://www.youtube.com/embed/tgbNymZ7vqY" width="400" height="250">
+    <br><br>
+
+    <!-- iframe Example -->
+    <h3>4. iframe Element</h3>
+    <p>This is another way to embed YouTube videos or websites:</p>
+    <iframe width="400" height="250" 
+        src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
+
+</body>
+
+</html>
